@@ -10,3 +10,9 @@ The following is the example of command:
 3.`\glsacr{AGT}` will look like this 算法博弈论（AGT）
 
 4.`\firstall{AGT}` will look like this **,算法博弈论（algorithmic game theory，AGT）**
+
+5.`\gls{AGT}` will look like this , 算法博弈论。
+
+6.`\glssymbol{AGT}` will look like this >AGT。
+
+7.`\glsdesc{AGT}` will look like this >algorithmic game theory。
