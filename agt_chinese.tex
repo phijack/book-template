@@ -5,11 +5,12 @@
 %define the header
 \fancyhead{}
 \fancyhead[RO,LE]{\thepage}
-\fancyhead[CO]{\footnotesize\textnormal{\rightmark}}
-\fancyhead[CE]{\footnotesize\textnormal{\leftmark}}
+\fancyhead[CO]{\textsl{\rightmark}}
+\fancyhead[CE]{\textsl{\leftmark}}
+\fancyfoot{}
 \pagestyle{fancy}
-\renewcommand{\chaptermark}[1]{\markboth{\CTEXthechapter #1}}
-\renewcommand{\sectionmark}[1]{\markright{\CTEXthesection#1}}
+%\renewcommand{\chaptermark}[1]{\markboth{\CTEXthechapter #1}}
+%\renewcommand{\sectionmark}[1]{\markright{\CTEXthesection#1}}
 
 % CJK related
 \setCJKmainfont[AutoFakeBold=true]{Adobe Song Std}
