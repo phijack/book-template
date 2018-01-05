@@ -95,17 +95,17 @@ plainpages=true]{hyperref}
 \setlength\emergencystretch{1.5em}
 
 % my command
-% \newcommand{\firstgls}[1]{\textbf{\,\gls{#1}}（\glsdesc{#1}）}
-% \newcommand{\firstacr}[1]{\textbf{\,\gls{#1}}（\glssymbol{#1}）}
-% \newcommand{\glsacr}[1]{\gls{#1}（\glssymbol{#1}）}
-% \newcommand{\firstall}[1]{\textbf{\,\gls{#1}}（\glsdesc{#1}, \glssymbol{#1}）}
-% \newcommand{\ENNAME}[1]{\text{#1}}
-% \newcommand{\NUMTEXT}[1]{\text{#1}}
-% \newcommand{\figref}[1]{图\,\ref{#1}\,}
-% \newcommand{\chapref}[1]{第\ref{#1}章}
-% \newcommand{\secref}[1]{第\,\ref{#1}\,节}
-% \newcommand{\algref}[1]{算法\,\ref{#1}\,}
-% \newcommand{\eqnref}[1]{式\,\eqref{#1}\,}
+\newcommand{\firstgls}[1]{\textbf{\,\gls{#1}}（\glsdesc{#1}）}
+\newcommand{\firstacr}[1]{\textbf{\,\gls{#1}}（\glssymbol{#1}）}
+\newcommand{\glsacr}[1]{\gls{#1}（\glssymbol{#1}）}
+\newcommand{\firstall}[1]{\textbf{\,\gls{#1}}（\glsdesc{#1}, \glssymbol{#1}）}
+\newcommand{\ENNAME}[1]{\text{#1}}
+\newcommand{\NUMTEXT}[1]{\text{#1}}
+\newcommand{\figref}[1]{图\,\ref{#1}\,}
+\newcommand{\chapref}[1]{第\ref{#1}章}
+\newcommand{\secref}[1]{第\,\ref{#1}\,节}
+\newcommand{\algref}[1]{算法\,\ref{#1}\,}
+\newcommand{\eqnref}[1]{式\,\eqref{#1}\,}
 
 
 % % Draft
@@ -124,10 +124,10 @@ plainpages=true]{hyperref}
 
 
 % http://tex.stackexchange.com/questions/198140/glossaries-and-custom-section-headings-broken  \glsentrytext!
-% \usepackage[nomain,acronym,xindy,toc,nopostdot]{glossaries}
-% \makeglossaries
-% \usepackage[xindy]{imakeidx}
-% \makeindex
+\usepackage[nomain,acronym,xindy,toc,nopostdot]{glossaries}
+\makeglossaries
+\usepackage[xindy]{imakeidx}
+\makeindex
 
 
 % symbol and 
@@ -185,5 +185,5 @@ plainpages=true]{hyperref}
 % \clearpage
 % }
 
-% \printglossary[title=术语]
+\printglossary[title=索引]
 \end{document}
