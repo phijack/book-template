@@ -16,3 +16,12 @@ The following is the example of command:
 6.`\glssymbol{AGT}` will look like this AGT。
 
 7.`\glsdesc{AGT}` will look like this algorithmic game theory。
+
+if you use Windows system, then you can go to this site [https://tug.org/texlive/acquire-netinstall.html] to download the texlive 2017.
+just click the 
+> install-tl-windows.exe
+to download the setup software.
+
+If you use the mac os, just install the MacTex. You can download it at [https://tug.org/mactex/]
+
+What's more, you are recommanded to use the xelatex command to compile the agt-chinese.tex file to get the pdf file.
