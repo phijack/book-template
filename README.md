@@ -33,6 +33,7 @@ If you want to get the index at the last of this book, you can download perl at 
 
 You should firstly xelatex the file 
 >agt_chinese.tex
+
 . Then use the command line (windows powershell or bash for linux etc.) in the directary "$your path$/agt_chinese" and input the `makeglossaries agt_chinese` .
 After the compile, xelatex the >
 agt_chinese.tex
